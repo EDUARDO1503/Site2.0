@@ -92,11 +92,24 @@
 }
 
 
+#sair {
+    position: absolute;
+    border-radius: 15px;
+    width: 40px;
+    height: 30px;
+    left: 1570px;
+    top: 65px;
+    color: rgb(255, 255, 0);
+    background-color: black;
+}
 
 
 
-
-
+.footer{
+    position: absolute;
+    top: 1072px;
+    width: 1920px;
+}
 
 
 

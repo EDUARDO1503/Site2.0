@@ -7,8 +7,9 @@ logado.innerHTML = `Ola ${userLogado.nome}`
 
 
 function sair(){
+    localStorage.removeItem('listaUser')
     localStorage.removeItem('userLogado')
     localStorage.removeItem('token')
-    window.location.href = '/index.html'
+    window.location.href = 'index.html'
 }
 
