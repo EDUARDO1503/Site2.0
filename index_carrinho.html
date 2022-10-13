@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Game Mania</title>
+        <link rel="stylesheet" type="text/css" href="/css/style2.css">
+        <link rel="icon" href="/IMG/LOGODUDU.png" alt="logo">
+        <script src="https://kit.fontawesome.com/eb5b010c14.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+
+<body style="margin:0px">
+
+ 
+
+        <!-- Fundo Geral -->
+        <div class="fundo">
+            <img src="IMG/gta.jpg" class="gta">
+            <div class="fundobranco">
+            </div>
+                <div class="amarela" >
+                </div>
+                <a href="index.html"><img class="logo" src="IMG/LOGODUDU.png"></a>
+            </div>
+            <img class="usuario" src="IMG/conta.png">
+            <a href="index_login.html"><div class="user"></div></a>
+            <a href="index_carrinho.html"><div class="carrinho"></div></a>
+
+    <h1 class="Compras">Carrinho de Compras</h1>
+<div class="opacidade">
+</div>
+<div class="opacidadejogos">
+</div>
+    <div class="cep">
+        <label>CEP:</label>
+        <!-- Informa o CEP -->
+        <input type="text" id="CEP"><br>
+        <!-- O programa consulte o endereço -->
+        <label>Rua:</label>
+        <input type="text" id="rua"><br>
+        <label>Bairro:</label>
+        <input type="text" id="bairro"><br>
+        <label>Cidade:</label>
+        <input type="text" id="cidade"><br>
+        <label>Estado:</label>
+        <input type="text" id="estado">
+        <br>
+        <button type="button" id="botao">Consulta</button>
+    </div>
+    <div id="carrinho">
+    </div>
+    <input type="button" value="EXCLUIR" onclick="excluirItem(1)">
+</body>
+<script src="/java/compra.js"></script>
+<script src="/java/cep.js"></script>
+</html>

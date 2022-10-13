@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 0vh;
+}
+
+.pesquisa {
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    /*cor da balão*/
+
+}
+
+.pesquisa:hover>.pesquisa-texto {
+    width: 245px;
+    /* tamanho do texto, porem quando minimizado*/
+    padding: 0 6px;
+}
+
+.pesquisa:hover>.pesquisa-texto {
+    background: rgb(255, 255, 255);
+    /*caixa d texto*/
+
+}
+
+.pesquisa-botao {
+    color: rgb(255, 255, 255);
+    /*cor da lupa*/
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    background: rgb(0, 0, 0);
+    /*cor do fundo da lupa*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.pesquisa-texto {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    /* cor do texto*/
+    font-size: 11.8px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    font-family: 'lemon milk';
+    /* tamanho da barra de texto*/
+}
+
+.fundobranco{
+    position: absolute;
+    width: 1000px;
+    height: 933px;
+    top: 147px;
+    left: 25%; 
+    background-color: gold;
+    background-image: linear-gradient(335deg,black 23px, transparent 23px),
+    linear-gradient(155deg,black 23px,transparent 23px),
+    linear-gradient(335deg,black 23px,transparent 23px),
+    linear-gradient(155deg,black 23px,transparent 23px);
+    background-size: 58px 58px;
+    background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+}
+
+.amarela{
+    position: absolute;
+    top: 0px;
+    width: 1920px;
+    height: 150px;
+    background-color: gold;
+}
+
+.logo{
+    position: absolute;
+    top: -10px;
+    width: 185px;
+    height: 170px;
+    left: 70px;
+}
+.Excluir {
+    position: absolute;
+    top: 250px;
+    left: 450px;
+}
+#carrinho {
+    position: absolute;
+    left: 550px;
+    top: 200px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.Compras {
+    position: absolute;
+    top: 140px;
+    left: 970px;
+    font-family: 'lemon milk';
+    color: white
+}
+
+.opacidade{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.404);
+    width: 310px;
+    height: 180px;
+    top: 160px;
+    left: 970px;
+}
+
+.opacidadejogos{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.685);
+    width: 370px;
+    height: 900px;
+    top: 160px;
+    left: 500px;
+}
+
+#input{
+    position: absolute;
+}
+
+.cep{
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+    user-select: none;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.usuario{
+    position: absolute;
+    top: 45px;
+    border-radius: 50px;
+    left: 80%;
+    /*mexer*/
+}
+
+.user{
+    position: absolute;
+    height: 25px;
+    width: 130px;
+    top: 65px;
+    left: 1540px;
+}
+
+.carrinho{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    top: 60px;
+    left: 1700px;
+    border-radius: 15px;
+}
+
+#CEP{
+    position: absolute;
+    right: 0px;
+}
+#rua{
+    position: absolute;
+    right: 0px;
+}
+#bairro{
+    position: absolute;
+    right: 0px;
+}
+#estado{
+    position: absolute;
+    right: 0px;
+}
+#botao{
+    position: absolute;
+    top: 100px;
+    border-radius: 20px;
+    color: gold;
+    background-color: black;
+}

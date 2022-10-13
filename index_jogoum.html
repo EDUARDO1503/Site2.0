@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="IMG/LOGODUDU.png">
+    <link rel="stylesheet" href="css/jogoum.css">
+    <script src="https://kit.fontawesome.com/eb5b010c14.js" crossorigin="anonymous"></script>
+    <title>GOD OF WAR ASCENSION</title>
+</head>
+<body style="margin:0px">
+
+
+    <!-- Fundo Geral -->
+    <div class="fundo">
+        <img src="IMG/gta.jpg" class="gta">
+        <div class="fundobranco">
+        </div>
+            <div class="amarela" >
+            </div>
+            <a href="index.html"><img class="logo" src="IMG/LOGODUDU.png"></a>
+        </div>
+        <img class="usuario" src="IMG/conta.png">
+        <a href="index_login.html"><div class="user"></div></a>
+        <a href="index_carrinho.html"><div class="carrinhoo"></div></a>
+
+           <!-- Span -->
+    <div class="ejogos">
+        <span class="fast-flicker">GOD OF</span><span class="flicker">WAR</span>
+      </div>
+      <br>
+      <div class="asc">
+      <span class="fast-flicker">ASCE</span><span class="flicker">NSION</span>
+    </div>  
+      <div class="descricao">
+        <span class="fast-flicker">POR AP</span><span class="flicker">ENAS:</span>
+      </div> 
+      <h1 class="descricao">R$: 75,90</h1>
+      
+                <!-- Capa e compra -->
+    <div class="jogos">
+        <img src="IMG/god.png" class="jogo">
+        <img src="IMG/comprar(1).png"  class="comprar">
+    </div>
+
+                  <!-- Botão Pesquisa -->
+    <div class="pesquisa">
+        <input class="pesquisa-texto" type="text" name="" placeholder="O que você esta procurando hoje? ">
+        <a class="pesquisa-botao" href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+    </div>
+
+    <div class="NOMECOMPRA">
+        <h5 class="nomejogo" id="p1nome">GOD OF WAR ASCENSION</p>
+        </h5>
+        <p id="p1preco">75,90 R$</p>
+        <p id="p1quantidade"></p>
+    </div>
+    <div class="BOTAOCOMPRA">
+        <br><a href="index_carrinho.html"> <img class="comprar" src="IMG/comprar(1).png" value="Adicionar"
+            onclick="
+        addCarrinho(
+            document.getElementById('p1nome').textContent, //nome
+            document.getElementById('p1preco').textContent, //preco
+            document.getElementById('p1quantidade').value, //quantidade
+            1)"></a> 
+    </div>
+</body>
+<script src="java/compra.js"></script>
+</html>
