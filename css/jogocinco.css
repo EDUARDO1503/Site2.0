@@ -68,50 +68,47 @@ body{
     height: 100px;
 }
 
+.gta5{
+    position: absolute;
+    width: 190.3px;
+    left: 28%;
+    top: 90%;
+}
 
+.gow{
+    position: absolute;
+    width: 170.3px;
+    left: 45%;
+    top: 89.9%;
+}
 
+.mine{
+    position: absolute;
+    width: 170.3px;
+    left: 62%;
+    top: 89.9%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.OUTROS{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 2;
+    left: 50.5%;
+    top: 80%;
+    font-family: "Clip";
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #000;
+    text-shadow: 0 0 0.6rem #000, 0 0 1.5rem gold,
+    -0.2rem 0.1rem 1rem gold, 0.2rem 0.1rem 1rem gold,
+    0 -0.5rem 2rem #000000, 0 0.5rem 3rem #000000;
+    animation: shine 2s forwards, flicker 3s infinite;
+}
 
 .pesquisa {
     position: absolute;

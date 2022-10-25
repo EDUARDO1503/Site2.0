@@ -11,6 +11,13 @@
 </head>
 <body style="margin:0px">
 
+    <div class="NOMECOMPRA">
+        <h5 class="nomejogo" id="p1nome">GOD OF WAR ASCENSION</p>
+        </h5>
+        <p id="p1preco">75,90 R$</p>
+        <p id="p1quantidade"></p>
+    </div>
+
 
     <!-- Fundo Geral -->
     <div class="fundo">
@@ -25,6 +32,19 @@
         <a href="index_login.html"><div class="user"></div></a>
         <a href="index_carrinho.html"><div class="carrinhoo"></div></a>
 
+                       <!-- Capa e compra -->
+                       
+    <div class="jogos">
+        <img src="IMG/god.png" class="jogo">
+        <img src="IMG/comprar(1).png"  class="comprar">
+        <div class="OUTROS">
+            <span class="fast-flicker">OUTROS</span>⠀<span class="flicker">JOGOS</span>
+          </div>  
+       <a href="/index_jogoquatro.html"> <img src="IMG/gta_5.png" class="gtajogo"></a>
+       <a href="/index_jogotres.html"> <img src="IMG/mine.png" class="mine"></a>
+       <a href="/index_jogocinco.html"> <img src="IMG/gta_triolo.png" class="gtatres"></a>
+    </div>
+
            <!-- Span -->
     <div class="ejogos">
         <span class="fast-flicker">GOD OF</span><span class="flicker">WAR</span>
@@ -37,12 +57,20 @@
         <span class="fast-flicker">POR AP</span><span class="flicker">ENAS:</span>
       </div> 
       <h1 class="descricao">R$: 75,90</h1>
+
       
-                <!-- Capa e compra -->
-    <div class="jogos">
-        <img src="IMG/god.png" class="jogo">
-        <img src="IMG/comprar(1).png"  class="comprar">
+      <!---->
+
+      <div class="BOTAOCOMPRA">
+        <br><a href="index_carrinho.html"> <img class="comprar" src="IMG/comprar(1).png" value="Adicionar"
+            onclick="
+        addCarrinho(
+            document.getElementById('p1nome').textContent, //nome
+            document.getElementById('p1preco').textContent, //preco
+            document.getElementById('p1quantidade').value, //quantidade
+            1)"></a> 
     </div>
+ 
 
                   <!-- Botão Pesquisa -->
     <div class="pesquisa">
@@ -52,21 +80,9 @@
         </a>
     </div>
 
-    <div class="NOMECOMPRA">
-        <h5 class="nomejogo" id="p1nome">GOD OF WAR ASCENSION</p>
-        </h5>
-        <p id="p1preco">75,90 R$</p>
-        <p id="p1quantidade"></p>
-    </div>
-    <div class="BOTAOCOMPRA">
-        <br><a href="index_carrinho.html"> <img class="comprar" src="IMG/comprar(1).png" value="Adicionar"
-            onclick="
-        addCarrinho(
-            document.getElementById('p1nome').textContent, //nome
-            document.getElementById('p1preco').textContent, //preco
-            document.getElementById('p1quantidade').value, //quantidade
-            1)"></a> 
-    </div>
+
+
+    
 </body>
 <script src="java/compra.js"></script>
 </html>
